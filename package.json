@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-scaling-cluster",
+  "version": "1.0.0",
+  "description": "> We use cluster module to scale our application across multiple CPU cores by creating multiple Node.js processes that share the same server port.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rupachowrasia/nodejs-scaling-cluster.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rupachowrasia/nodejs-scaling-cluster/issues"
+  },
+  "homepage": "https://github.com/rupachowrasia/nodejs-scaling-cluster#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
